@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <locale lang="en">
     <error>
-        <restartDuringMatch>You may not restart during a match. Use -f to override.</restartDuringMatch>
-        <cycleDuringMatch>You may not cycle during a match. Use -f to override.</cycleDuringMatch>
-        <matchRunning>Match is already running.</matchRunning>
+        <restartDuringMatch>You may not restart during a match.</restartDuringMatch>
+        <cycleDuringMatch>You may not cycle during a match.</cycleDuringMatch>
+        <matchRunning>Match is already in progress.</matchRunning>
         <matchNoResume>Match has finished and may not be resumed.</matchNoResume>
         <matchNoStart>Match could not be started at this time.</matchNoStart>
         <matchNoEnd>Match could not be ended at this time.</matchNoEnd>
-        <noSetNext>You may not set the next map when a restart is queued. Use -f to override.</noSetNext>
-        <disabledCommand>This command is disabled. Maps will reload automatically if changes are detected.</disabledCommand>
+        <noSetNext>You are not able to set the next map when a restart is queued.</noSetNext>
+        <disabledCommand>This command has been disabled. Maps will reload automatically if changes are detected.</disabledCommand>
         <rotPointInvalid>Specified rotation point is not valid.</rotPointInvalid>
         <invalidTime>Invalid countdown time specified.</invalidTime>
         <teamChatDefault>Team chat is already your default channel.</teamChatDefault>
@@ -16,26 +16,26 @@
         <noClass>No class matched query.</noClass>
         <classRestricted>The {0} class is restricted</classRestricted>
         <noClassChange>You may not change classes because your current class is sticky.</noClassChange>
-        <classesDisabled>Classes are not enabled on this map.</classesDisabled>
-        <noTeam>You are not on a team.</noTeam>
+        <classesDisabled>Classes are disabled on this map.</classesDisabled>
+        <noTeam>You have not joined a team.</noTeam>
         <alreadyObs>You are already on the observing team.</alreadyObs>
-        <alreadyJoined>You have already joined {0}</alreadyJoined>
+        <alreadyJoined>You have already joined a team. Use /leave to join the observing team. {0}</alreadyJoined>
         <teamFull>Sorry, {0} is completely full</teamFull>
         <forceExemption>{0} is exempt from being forced on to teams.</forceExemption>
-        <noShuffle>You may not shuffle teams during a match.</noShuffle>
+        <noShuffle>You may not shuffle teams while a match is in progress.</noShuffle>
         <teamExists>A team by the name of {0} already exists.</teamExists>
         <mayNotJoin>You may not join during a {0} match.</mayNotJoin>
-        <matchOver>Match is over</matchOver>
-        <cycle>Please wait for the server to cycle</cycle>
+        <matchOver>Match is over, wait for the next cycled map.</matchOver>
+        <cycle>Please wait for the server to cycle maps</cycle>
         <playerCommand>You must be a player to use this command.</playerCommand>
-        <noMapMatch>No maps matched query.</noMapMatch>
+        <noMapMatch>No maps matched query. Use /maps to view the repository</noMapMatch>
         <noTeamMatch>No teams matched query.</noTeamMatch>
         <noRotMatch>No rotations matched query.</noRotMatch>
         <noPlayerMatch>No players matched query.</noPlayerMatch>
         <multiplePlayers>More than one player found! Use {0} for exact matching.</multiplePlayers>
-        <unknownError>An unknown error has occurred. Please refer to the server console.</unknownError>
-        <movedForBalance>You were moved to {0} to balance team sizes</movedForBalance>
-        <autoJoinSwitch>(you didn't choose a team, so we assumed you wouldn't mind)</autoJoinSwitch>
+        <unknownError>An unknown error has occurred.</unknownError>
+        <movedForBalance>You were placed in {0} to balance team sizes</movedForBalance>
+        <autoJoinSwitch>(you didn't choose a team, so we forced you into one)</autoJoinSwitch>
         <ownCore>You may not damage your own core.</ownCore>
         <ownObjective>You may not damage your own objective.</ownObjective>
         <enemyObjective>You may not repair an enemy objective.</enemyObjective>
@@ -44,7 +44,7 @@
         <teamPlace>Only a member of {0} may place {1} here!</teamPlace>
         <blockPlace>Only {0} may be placed here!</blockPlace>
         <noCraft>You may not craft {0}.</noCraft>
-        <bedsDisabled>Beds are disabled on this map!</bedsDisabled>
+        <bedsDisabled>Beds are not enabled on this map!</bedsDisabled>
         <pearlOut>You may not use Ender Pearls to leave your lane</pearlOut>
         <laneReEnter>You may not re-enter your lane</laneReEnter>
         <landminePlace>You can't place a landmine there!</landminePlace>
@@ -55,14 +55,14 @@
         <defuseTntEnemy>You may not defuse enemy TNT.</defuseTntEnemy>
         <noPermission>You do not have permission.</noPermission>
         <numberString>Number expected, string received instead.</numberString>
-        <errorRejoin>Uh oh! We had an error. Please try rejoining.</errorRejoin>
-        <serverFull>Server is full</serverFull>
-        <teamsFull>Teams are full</teamsFull>
+        <errorRejoin>An error occured. Please try rejoining.</errorRejoin>
+        <serverFull>This server is full. Try again later!</serverFull>
+        <teamsFull>All teams are full</teamsFull>
         <teamsCapacity>Teams are at capacity</teamsCapacity>
         <invalidMatch>Invalid match</invalidMatch>
         <ratingRange>Rating must be between {0} and {1}, inclusive.</ratingRange>
         <ratingsDisabled>Map ratings are not enabled on this server.</ratingsDisabled>
-        <lowParticipation>Sorry, you haven't participated com this match enough to rate the map</lowParticipation>
+        <lowParticipation>Sorry, you haven't participated in this match enough to rate the map</lowParticipation>
         <rateWhilePlaying>To rate the map while playing, type {0}</rateWhilePlaying>
     </error>
     <generic>
@@ -94,7 +94,7 @@
         <classCurrent>Current class:</classCurrent>
         <classList>List all classes by typing '/classes'</classList>
         <errorsCleared>Errors cleared!</errorsCleared>
-        <noErrors>No errors!</noErrors>
+        <noErrors>No errors displayed!</noErrors>
         <joined>You joined {0}</joined>
         <worldDefuse>You defused world TNT.</worldDefuse>
         <defusePlayerTnt>You defused {0}'s TNT.</defusePlayerTnt>
@@ -123,12 +123,12 @@
         <mapAuthors>Authors</mapAuthors>
         <mapContributors>Contributors</mapContributors>
         <mapRules>Rules</mapRules>
-        <mapMax>Max players</mapMax>
+        <mapMax>Maximum players</mapMax>
         <rotationCurrent>Current Rotation</rotationCurrent>
         <rotationLoaded>Loaded Rotations</rotationLoaded>
         <matchInfo>Match Info</matchInfo>
         <time>Time</time>
-        <matchTime>Match Time</matchTime>
+        <matchTime>Match Length</matchTime>
         <goals>Goals</goals>
         <classes>Classes</classes>
         <of>{0} of {1}</of>
@@ -136,10 +136,10 @@
         <close>Close</close>
         <teamClassSelection>Team/Class Selection</teamClassSelection>
         <teamJoinTip>Join the game!</teamJoinTip>
-        <teamPick>Pick your team</teamPick>
+        <teamPick>Choose your team</teamPick>
         <teamJoinAuto>Auto Join</teamJoinAuto>
         <teamJoinAutoLore>Puts you on the team with the fewest players</teamJoinAutoLore>
-        <teamCapacity>Team is at capacity, you can not join.</teamCapacity>
+        <teamCapacity>Team is at full capacity, you can not join.</teamCapacity>
         <teamCanPick>You are able to pick your team, click to join!</teamCanPick>
         <teamSelection>Team Selection</teamSelection>
         <tutorialView>View Tutorial</tutorialView>
@@ -152,7 +152,7 @@
         <second>{0} second</second>
         <seconds>{0} seconds</seconds>
         <matchStarted>The match has started!</matchStarted>
-        <matchStartCancelled>Match start cancelled</matchStartCancelled>
+        <matchStartCancelled>Match start was cancelled</matchStartCancelled>
         <matchOver>Game over!</matchOver>
         <matchWin>{0} wins!</matchWin>
         <matchTeamWin>Your team won!</matchTeamWin>
@@ -160,19 +160,19 @@
         <matchMaxScoreReached>Score limit of {0} reached</matchMaxScoreReached>
         <playerJoin>{0} joined the game</playerJoin>
         <playerLeave>{0} left the game</playerLeave>
-        <serverRestart>Server restarting!</serverRestart>
+        <serverRestart>Server restarting! Join back after..</serverRestart>
         <mapPlaying>Currently playing {0}</mapPlaying>
         <objectivePlaced>{0} placed {2} for the {1}</objectivePlaced>
         <objectiveLeaked>{0}'s {1} has leaked!</objectiveLeaked>
-        <objectiveDestroyed>{0}'s {1} was destroyed by {2}</objectiveDestroyed>
+        <objectiveDestroyed>{0}'s {1} was completely destroyed by {2}</objectiveDestroyed>
         <objectiveTouchedFor>{0} broke a piece of {1} for the {2}</objectiveTouchedFor>
-        <objectiveTouched>{0} broke a piece of {1}</objectiveTouched>
+        <objectiveTouched>{0} has broke a piece of {1}</objectiveTouched>
         <objectiveDamagedFor>{0} damaged {1} for the {2}</objectiveDamagedFor>
         <objectiveDamaged>{0} damaged {1}</objectiveDamaged>
-        <creditReceived>You will receive credit when this objective is completed.</creditReceived>
+        <creditReceived>You will receive credit when this objective has been completed.</creditReceived>
         <objectivePickedFor>{0} picked up {1} for the {2}</objectivePickedFor>
         <objectivePicked>{0} picked up {1}</objectivePicked>
-        <scoredFor>{0} scored {1} for {2}</scoredFor>
+        <scoredFor>{0} captured {1} for {2}</scoredFor>
         <onePoint>1 point</onePoint>
         <points>{0} points</points>
         <amountRemaining>You have {0} remaining.</amountRemaining>
@@ -182,8 +182,8 @@
         <leftLane>You have left your lane</leftLane>
         <scores>Scores</scores>
         <typeForMapInfo>type /map for info</typeForMapInfo>
-        <cyclingTimer>Cycling to {0} in{1}</cyclingTimer>
-        <cycledTo>Cycled to {0}</cycledTo>
+        <cyclingTimer>Cycling map to {0} in{1}</cyclingTimer>
+        <cycledTo>Cycled map to {0}</cycledTo>
         <matchStartingIn>Match starting in{0}</matchStartingIn>
         <serverRestartingIn>Server restarting in {0}</serverRestartingIn>
         <tntDefuser>TNT Defuser</tntDefuser>
