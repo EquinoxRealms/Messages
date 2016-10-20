@@ -11,19 +11,19 @@
         <disabledCommand>This command has been disabled. Maps will reload automatically if changes are detected.</disabledCommand>
         <rotPointInvalid>Specified rotation point is not valid.</rotPointInvalid>
         <invalidTime>Invalid countdown time specified.</invalidTime>
-        <teamChatDefault>Team chat is already your default channel.</teamChatDefault>
+        <teamChatDefault>Team chat has already been set to your default channel.</teamChatDefault>
         <teamChannel>Your team channel could not be resolved. Please try again com a few moments.</teamChannel>
         <noClass>No class matched query.</noClass>
         <classRestricted>The {0} class is restricted</classRestricted>
         <noClassChange>You may not change classes because your current class is sticky.</noClassChange>
         <classesDisabled>Classes are disabled on this map.</classesDisabled>
-        <noTeam>You have not joined a team.</noTeam>
+        <noTeam>You have not joined a team. Use /join.</noTeam>
         <alreadyObs>You are already on the observing team.</alreadyObs>
         <alreadyJoined>You have already joined a team. Use /leave to join the observing team. {0}</alreadyJoined>
         <teamFull>Sorry, {0} is completely full</teamFull>
         <forceExemption>{0} is exempt from being forced on to teams.</forceExemption>
         <noShuffle>You may not shuffle teams while a match is in progress.</noShuffle>
-        <teamExists>A team by the name of {0} already exists.</teamExists>
+        <teamExists>The team name {0} already exists, use another name.</teamExists>
         <mayNotJoin>You may not join during a {0} match.</mayNotJoin>
         <matchOver>Match is over, wait for the next cycled map.</matchOver>
         <cycle>Please wait for the server to cycle maps</cycle>
@@ -57,7 +57,7 @@
         <numberString>Number expected, string received instead.</numberString>
         <errorRejoin>An error occured. Please try rejoining.</errorRejoin>
         <serverFull>This server is full. Try again later!</serverFull>
-        <teamsFull>All teams are full</teamsFull>
+        <teamsFull>All teams are at full capacity.</teamsFull>
         <teamsCapacity>Teams are at capacity</teamsCapacity>
         <invalidMatch>Invalid match</invalidMatch>
         <ratingRange>Rating must be between {0} and {1}, inclusive.</ratingRange>
@@ -86,9 +86,9 @@
         <playerForce>{0} successfully forced onto {1}</playerForce>
         <teamShuffle>Teams successfully shuffled.</teamShuffle>
         <teamAlias>{0} successfully renamed to {1}</teamAlias>
-        <channelSet>Changed default channel to team chat.</channelSet>
+        <channelSet>Changed your default channel to team chat.</channelSet>
         <messageSent>Message sent.</messageSent>
-        <onTeam>You are on {0}</onTeam>
+        <onTeam>You are currently on {0}</onTeam>
         <haveSelected>You have selected {0}</haveSelected>
         <changeOnSpawn>Changes will take effect on next spawn.</changeOnSpawn>
         <classCurrent>Current class:</classCurrent>
@@ -122,7 +122,7 @@
         <mapAuthor>Author</mapAuthor>
         <mapAuthors>Authors</mapAuthors>
         <mapContributors>Contributors</mapContributors>
-        <mapRules>Rules</mapRules>
+        <mapRules>Map Rules</mapRules>
         <mapMax>Maximum players</mapMax>
         <rotationCurrent>Current Rotation</rotationCurrent>
         <rotationLoaded>Loaded Rotations</rotationLoaded>
@@ -140,7 +140,7 @@
         <teamJoinAuto>Auto Join</teamJoinAuto>
         <teamJoinAutoLore>Puts you on the team with the fewest players</teamJoinAutoLore>
         <teamCapacity>Team is at full capacity, you can not join.</teamCapacity>
-        <teamCanPick>You are able to pick your team, click to join!</teamCanPick>
+        <teamCanPick>You have access to pick your team, click to join!</teamCanPick>
         <teamSelection>Team Selection</teamSelection>
         <tutorialView>View Tutorial</tutorialView>
         <tutorialLore>Learn how to play {0}!</tutorialLore>
