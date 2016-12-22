@@ -11,7 +11,7 @@
         <disabledCommand>This command has been disabled. Maps will reload automatically if changes are detected.</disabledCommand>
         <rotPointInvalid>Specified rotation point is not valid.</rotPointInvalid>
         <invalidTime>Invalid countdown time specified.</invalidTime>
-        <teamChatDefault>Team chat has already been set to your default channel.</teamChatDefault>
+        <teamChatDefault>Team chat has already been set as your default channel.</teamChatDefault>
         <teamChannel>Your team channel could not be resolved. Please try again com a few moments.</teamChannel>
         <noClass>No class matched query.</noClass>
         <classRestricted>The {0} class is restricted</classRestricted>
@@ -24,8 +24,8 @@
         <forceExemption>{0} is exempt from being forced on to teams.</forceExemption>
         <noShuffle>You may not shuffle teams while a match is in progress.</noShuffle>
         <teamExists>The team name {0} already exists, use another name.</teamExists>
-        <mayNotJoin>You may not join during a {0} match.</mayNotJoin>
-        <matchOver>Match is over, wait for the next cycled map.</matchOver>
+        <mayNotJoin>You cannot join during a {0} match.</mayNotJoin>
+        <matchOver>Match is over, wait for the next cycled map before trying again.</matchOver>
         <cycle>Please wait for the server to cycle maps</cycle>
         <playerCommand>You must be a player to use this command.</playerCommand>
         <noMapMatch>No maps matched query. Use /maps to view the repository</noMapMatch>
@@ -40,7 +40,7 @@
         <ownObjective>You may not damage your own objective.</ownObjective>
         <enemyObjective>You may not repair an enemy objective.</enemyObjective>
         <repairObjective>This objective may not be repaired.</repairObjective>
-        <noPotions>No potion effects</noPotions>
+        <noPotions>There are no potion effects</noPotions>
         <teamPlace>Only a member of {0} may place {1} here!</teamPlace>
         <blockPlace>Only {0} may be placed here!</blockPlace>
         <noCraft>You may not craft {0}.</noCraft>
@@ -66,7 +66,7 @@
         <rateWhilePlaying>To rate the map while playing, type {0}</rateWhilePlaying>
     </error>
     <generic>
-        <mapSet>Next map set to {0}</mapSet>
+        <mapSet>The next map has been set to {0}</mapSet>
         <markedForReloading>{0} successfully marked for reloading.</markedForReloading>
         <allMarkedReloading>All maps successfully marked for reloading.</allMarkedReloading>
         <countdownCancelled>All countdowns cancelled.</countdownCancelled>
@@ -89,7 +89,7 @@
         <channelSet>Changed your default channel to team chat.</channelSet>
         <messageSent>Message sent.</messageSent>
         <onTeam>You are currently on {0}</onTeam>
-        <haveSelected>You have selected {0}</haveSelected>
+        <haveSelected>You have selected to join {0}</haveSelected>
         <changeOnSpawn>Changes will take effect on next spawn.</changeOnSpawn>
         <classCurrent>Current class:</classCurrent>
         <classList>List all classes by typing '/classes'</classList>
@@ -160,8 +160,8 @@
         <matchMaxScoreReached>Score limit of {0} reached</matchMaxScoreReached>
         <playerJoin>{0} joined the game</playerJoin>
         <playerLeave>{0} left the game</playerLeave>
-        <serverRestart>Server restarting! Join back after..</serverRestart>
-        <mapPlaying>Currently playing {0}</mapPlaying>
+        <serverRestart>Server restarting! Join us back after..</serverRestart>
+        <mapPlaying>Map currrently playing: {0}</mapPlaying>
         <objectivePlaced>{0} placed {2} for the {1}</objectivePlaced>
         <objectiveLeaked>{0}'s {1} has leaked!</objectiveLeaked>
         <objectiveDestroyed>{0}'s {1} was completely destroyed by {2}</objectiveDestroyed>
